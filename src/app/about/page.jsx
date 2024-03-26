@@ -1,34 +1,18 @@
 function page() {
   return (
     <div className="max-w-6xl mx-auto p-3 space-y-4">
-      <h1 className="text-2xl font-medium text-amber-500">About</h1>
+      <h1 className="text-2xl font-medium text-amber-500">Sobre</h1>
       <p>
-        Welcome to our movie database website! We are a team of passionate movie
-        enthusiasts who have come together to create a one-step destination for
-        all your movie-related needs.
+        Bem vindo ao IMDb Clone. Um site aonde você pode pesquisar seus filmes
+        favoritos. Este é um projeto desenvolvido em Next.js e usando
+        tailwindcss. Foi criado no intuito de praticar os conceitos aprendedidos
+        durante os meus estudos.
       </p>
       <p>
-        Our website is designed to provide you with a comprehensive database of
-        movies from all around the world, along with the latest news, reviews,
-        and trailers. Our movie database is constantly updated with new
-        releases, ensuring that you have access to the latest and greatest in
-        the world of cinema. You can search for movies by title, director,
-        actor, genre, or release date, making it easy to find the perfect movie
-        for any occasion.
+        Esse App faz o uso de uma famos Api chamada TMDB, que contém informações
+        atualizadas de todos os filmes atuais e antigos.
       </p>
-      <p>
-        In addition to our extensive movie database, we also offer a platform
-        for movie lovers to connect and share their thoughts on the latest
-        releases. Our community section includes a forum where you can discuss
-        your favorite films with like-minded individuals and read reviews and
-        ratings from other users. We also have a section dedicated to movie news
-        and trailers, keeping you updated with the latest happenings in the
-        world of cinema. Thank you for visiting our website and we hope you
-        enjoy your time browsing through our movie database. If you have any
-        feedback or suggestions, please feel free to contact us. We are always
-        looking for ways to improve and enhance the user experience on our
-        website. Happy browsing!
-      </p>
+      <p>Espero que goste!!! 😀</p>
     </div>
   );
 }
