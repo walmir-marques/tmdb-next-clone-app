@@ -18,12 +18,12 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <Providers>
+          <Header />
+          <Navbar />
           <Suspense>
-            <Header />
-            <Navbar />
             <SearchBox />
-            {children}
           </Suspense>
+          {children}
         </Providers>
       </body>
     </html>
