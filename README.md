@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Tmdb-next-clone-app 🎥
+Um clone do site TMDB, mostrando os filmes disponíveis, permitindo que os usuários pesquisem por qualquer filme e acessem páginas de filmes em alta e melhores avaliados. <br><br>
 
-## Getting Started
+## 📋 Descrição <br><br>
 
-First, run the development server:
+O Tmdb-next-clone-app é uma aplicação web que replica as principais funcionalidades do TMDB (The Movie Database). Os usuários podem navegar por uma vasta biblioteca de filmes, pesquisar títulos específicos e explorar seções dedicadas a filmes em alta e melhores avaliados. A aplicação é construída com Next.js, garantindo desempenho e otimização para SEO, enquanto o Tailwind CSS é utilizado para criar uma interface responsiva e agradável. O gerenciamento de estado é feito utilizando Context API, e hooks como useEffect e useState são empregados para otimizar a manipulação de dados e a renderização de componentes. <br><br>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🛠️ Tecnologias Utilizadas <br><br>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Next.js
+- Tailwind CSS
+- useEffect
+- useState
+- useRouter
+- Context API
+- Fetch API <br><br>
+## 💡 Conceitos Aprendidos e Aplicados <br><br>
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+-  Desenvolvimento de aplicações escaláveis e rápidas com Next.js
+- Utilização de Tailwind CSS para criar uma interface de usuário moderna e responsiva
+- Gerenciamento de estado global com Context API para compartilhamento de dados entre componentes
+- Implementação de hooks (useEffect e useState) para controlar a lógica de renderização e manipulação de dados
+- Consumo de APIs externas para obtenção de informações sobre filmes usando o método fetch <br><br>
+## 🚀 Funcionalidades <br><br>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Navegação por uma lista de filmes disponíveis
+- Campo de busca para localizar filmes específicos
+- Acesso a páginas de filmes em alta e melhores avaliados
+- Exibição de detalhes dos filmes selecionados <br><br>
+## 🖥️ Como Executar o Projeto <br><br>
 
-## Learn More
+Faça o download ou clone o repositório:
 
-To learn more about Next.js, take a look at the following resources:
+``` git clone https://github.com/seu-usuario/tmdb-next-clone-app.git ``` <br><br>
+Navegue até o diretório do projeto:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+``` cd tmdb-next-clone-app ``` <br><br>
+Instale as dependências:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+``` npm install ``` <br><br>
+Inicie a aplicação:
 
-## Deploy on Vercel
+``` npm run dev ``` <br><br>
+Abra o navegador e acesse:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+``` http://localhost:3000 ``` <br><br>
